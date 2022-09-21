@@ -10,21 +10,12 @@ interface C {
 }
 type D = B & C
 
-class DImpl implements D{
-    // @ts-ignore
-    d: number;
-    // @ts-ignore
-    f: string;
-    // @ts-ignore
-    g: string;
-    // @ts-ignore
-    z: string;
+let d: D = {
+    d: 0,
+    f: "",
+    g: "",
+    z: ""
 }
 
-let d: D = new DImpl()
-d.d = 1;
-d.f ="";
-d.g ="";
-d.z ="";
 
 console.log(d)
