@@ -4,10 +4,10 @@ interface LabelledValue {
     label: string;
 }
 
-function printLabel(labelledObj: LabelledValue) {
+function printLabel2(labelledObj: LabelledValue) {
     console.log(labelledObj.label);
 }
 
 let obj = {size: 10, label: "Size 10 Object"};
 
-printLabel(obj);
+printLabel2(obj);
