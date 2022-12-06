@@ -1,0 +1,3 @@
+```
+tsc --outFile sample.js
+```
